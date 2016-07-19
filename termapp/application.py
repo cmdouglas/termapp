@@ -19,6 +19,8 @@ class Screen:
             line.text = " " * t.width
             line.dirty = True
 
+        print(t.clear())
+
     def refresh(self):
         for y, line in enumerate(self.lines):
             if line.dirty:

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='termapp',
-    version='0.1',
+    version='0.1.1',
     description='Mini-framework for developing terminal applications',
     url='https://github.com/cdouglas/termapp',
     author='Charlie Douglas',
